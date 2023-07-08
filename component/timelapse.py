@@ -674,9 +674,9 @@ class Timelapse:
                 + " -i '" + inputfiles + "'" \
                 + filterParam \
                 + " -threads 2 -g 5" \
-                + " -crf " + str(self.config['constant_rate_factor']) \
-                + " -vcodec libx264" \
+                + " -vcodec h264" \
                 + " -pix_fmt " + self.config['pixelformat'] \
+                + " -b:v 10M" \
                 + " -an" \
                 + " " + self.config['extraoutputparams'] \
                 + " '" + self.temp_dir + outfile + ".mp4' -y"
@@ -688,7 +688,6 @@ class Timelapse:
                 'framecount': str(self.framecount),
                 'settings': {
                     'framerate': fps,
-                    'crf': self.config['constant_rate_factor'],
                     'pixelformat': self.config['pixelformat']
                 }
             })
