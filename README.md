@@ -26,3 +26,7 @@ frame_path: /tmp/timelapse/printer
 ```
   
 4. Add timelapse.cfg to your configuration and import it into printer.cfg.
+
+5. Add the macros to your before layer change in your slicer - refer to original moonraker-timelapse docs for details
+
+6. Restart your printer
