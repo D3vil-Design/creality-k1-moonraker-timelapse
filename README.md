@@ -1,3 +1,4 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X7LBLK2)
 
 # Moonraker-timelapse for the Creality K1
 
