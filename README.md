@@ -23,7 +23,7 @@ CRF is not supported with the default h264 encoder.
 ```
 [timelapse]
 output_path: /usr/data/printer_data/timelapse/
-frame_path: /tmp/timelapse/printer
+frame_path: /usr/data/printer_data/frames/
 ```
   
 4. Add timelapse.cfg to your configuration and import it into printer.cfg.
